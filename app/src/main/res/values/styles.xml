@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="custom_fab" parent="Widget.Design.FloatingActionButton">
+        <item name="backgroundTint">@color/grey_900</item>
+    </style>
+
+    <style name="custom_bottom_bar" parent="Widget.MaterialComponents.BottomAppBar">
+        <item name="backgroundTint"> @color/colorPrimaryDark</item>
+    </style>
+
+
+</resources>
